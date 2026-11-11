@@ -1,0 +1,66 @@
+# Settings you can change without touching the code.
+
+# Only keep articles published in the last N hours.
+lookback_hours = 24
+
+# Each [[feeds]] block is one news source. Add, remove or edit freely.
+# Tested and rejected (2026-11-11): The Telegraph (blocks programs, error 402),
+# Wall Street Journal world feed (dead: newest item from January 2025).
+
+# --- Portugal ---
+[[feeds]]
+name = "Observador"
+url = "https://observador.pt/feed/"
+area = "Portugal"
+
+[[feeds]]
+name = "Público"
+url = "https://feeds.feedburner.com/PublicoRSS"
+area = "Portugal"
+
+[[feeds]]
+name = "RTP Notícias"
+url = "https://www.rtp.pt/noticias/rss"
+area = "Portugal"
+
+[[feeds]]
+name = "ECO"
+url = "https://eco.sapo.pt/feed/"
+area = "Portugal"
+
+# --- World ---
+[[feeds]]
+name = "BBC World"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+area = "World"
+
+[[feeds]]
+name = "The Guardian"
+url = "https://www.theguardian.com/world/rss"
+area = "World"
+
+[[feeds]]
+name = "Al Jazeera"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+area = "World"
+
+[[feeds]]
+name = "The Economist"
+url = "https://www.economist.com/latest/rss.xml"  # all sections; /international/ is a slow archive
+area = "World"
+
+# --- Tech/AI ---
+[[feeds]]
+name = "MIT Technology Review"
+url = "https://www.technologyreview.com/feed/"
+area = "Tech/AI"
+
+[[feeds]]
+name = "Ars Technica"
+url = "https://feeds.arstechnica.com/arstechnica/index"
+area = "Tech/AI"
+
+[[feeds]]
+name = "Hacker News"
+url = "https://hnrss.org/frontpage?points=200"
+area = "Tech/AI"

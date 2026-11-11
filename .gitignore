@@ -1,0 +1,5 @@
+# Files that must never be uploaded or shared
+.env
+.venv/
+__pycache__/
+*.pyc
