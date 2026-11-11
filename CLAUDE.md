@@ -54,6 +54,12 @@ of a block until one is actually needed.
   in `config.toml` with this reasoning as a comment.
 - The Economist `/international/` feed is a section archive (items back to 2024, ~1 new/day) whose recent items
   also appear in `/latest/rss.xml` (~15 items/day), so config uses `/latest/` only.
+## Git
+- One repo for this project (`projects/morning-news/`), default branch `main`. I run the git commands myself.
+- Commit messages: short summary of what changed (e.g. "Step 2: ..."), then the trailer
+  `Co-Authored-By: Claude <noreply@anthropic.com>` to be open about AI help.
+- Update the project map, learning log and CLAUDE.md before the end-of-step commit.
+
 ## Environment
 - Python 3.14 (chosen over 3.15 for library compatibility), VS Code with the Python extension.
 
