@@ -1,6 +1,6 @@
 # Project map
 
-Updated at the end of every step. Last update: end of Step 2 (2026-11-11).
+Updated at the end of every step. Last update: end of Step 2b (2026-11-11).
 
 ## 1. Architecture: what the system is
 
@@ -69,4 +69,8 @@ timeline
         ⚠️ Setback : Economist International is an archive → latest feed
         ⚠️ Setback : Feeds are truncated (Público ≈ 1.5 h) → fetch hourly and store
         📋 Backlog : Reuters (no official feed) : Expresso
+        ✅ Built : Project map (Mermaid) : Backlog and learning log
+    section Step 2b · git and GitHub
+        ✅ Built : git repository, first commit : Public repo with README
+        ✅ Decision : Commits credit Claude as co-author : Learning log is public
 ```

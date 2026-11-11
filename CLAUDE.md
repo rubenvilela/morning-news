@@ -68,8 +68,8 @@ of a block until one is actually needed.
 1. Read one RSS feed and print headlines  ✓ done
 2. All feeds, date filter, config file, HTML cleaning of titles  ✓ done
    → then create `docs/project-map.md` (Mermaid: architecture map + project journey); update it at the end of every step  ✓ done
-2b. git + GitHub: version history, private→public repo for CV, cloud sessions  ← current
-3. AI ranks, groups and summarises (compare two free models)
+2b. git + GitHub: public repo github.com/rubenvilela/morning-news with README  ✓ done
+3. AI ranks, groups and summarises (compare two free models)  ← current
 4. Send the digest to Telegram
 5. Daily 08:00 schedule
 6. Reply → "tell me more" with web search and conversation memory (SQLite)
